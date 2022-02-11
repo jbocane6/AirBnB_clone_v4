@@ -158,6 +158,7 @@ Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twit
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+
 Julio Cesar Arenas Borrero - [Github](https://github.com/jihuder) / [Twitter](https://twitter.com/JulioAr73961918)
 Juan Camilo Bocanegra Osorio - [Github](https://github.com/jbocane6) / [Twitter](https://twitter.com/Juanoso07555284)
 
