@@ -1,4 +1,5 @@
 $(document).ready(function () {
+  const url = "http://0.0.0.0:5001/api/v1/";
   const check_amenities = [];
   $("input:checkbox").change(function () {
     if ($(this).is(":checked")) {
@@ -12,12 +13,10 @@ $(document).ready(function () {
     $(".amenities h4").text(check_amenities.join(", "));
   });
 
-  const url = "http://0.0.0.0:5001/api/v1/status/";
-  $.get(url, (status) => {
-    if (status === "OK") {
+  $.get(+"status/", (data, status) => {
+    if (status === "success" && data.status === "OK") {
       $("#api_status").addClass("available");
-    }
-    else {
+    } else {
       $("#api_status").removeClass("available");
     }
   });
