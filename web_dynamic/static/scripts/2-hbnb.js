@@ -4,7 +4,7 @@ $(document).ready(function () {
     if ($(this).is(":checked")) {
       check_amenities.push($(this).parent().attr("data-name"));
     } else {
-      const index = check_amenities.indexOf($(this).attr("data-name"));
+      const index = check_amenities.indexOf($(this).parent().attr("data-name"));
       if (index > -1) {
         check_amenities.splice(index, 1);
       }
