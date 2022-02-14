@@ -27,6 +27,11 @@
       rel="stylesheet"
       href="../static/styles/8-places.css?{{ cache_id }}"
     />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script
+      type="text/javascript"
+      src="../static/scripts/1-hbnb.js?{{cache_id}}"
+    ></script>
     <link rel="icon" href="../static/images/icon.png" />
     <title>HBnB</title>
   </head>
@@ -60,7 +65,9 @@
           <div class="popover">
             <ul>
               {% for amenity in amenities %}
-              <li>{{ amenity.name }}</li>
+              <li data-name="{{ amenity.name }}" data-id="{{ amenity.id }}">
+                <input type="checkbox" />{{ amenity.name }}
+              </li>
               {% endfor %}
             </ul>
           </div>
